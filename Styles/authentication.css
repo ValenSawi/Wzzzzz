@@ -1,0 +1,152 @@
+@import url("./global.css");
+
+body{
+background-image: url("../Images/Image\ bg.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width:100vw;
+height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    min-width: 306px;
+    max-width: 529px;
+    padding: 24px;
+    background-color: rgba(24, 26, 28, 0.84);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo { 
+    width: 94px;
+}
+
+.header{
+    margin: 20px;
+}
+
+.header h1{
+    font-size: 32px;
+     font-weight: 700;
+     color: white;
+     line-height: 140%;
+     letter-spacing: 0.2px;
+    margin-bottom: 4px;
+}
+
+.header p {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group label {
+    font-size: 10px;
+    font-weight: 400;
+    columns: white;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.form-group input {
+    font-size: 9px;
+    font-weight: 400;
+    color: white;
+    line-height: 140%;
+    letter-spacing: 0.12px;
+
+    height: 28px;
+    border: 0.5px solid white;
+    border-radius: 12px;
+    padding: 8px 12px;
+    background-color: transparent;
+}
+
+.form-group img {
+    position: absolute;
+    top: 31px;
+    right: 12px;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+
+.register-action {
+    font-size: 10px;
+    font-weight: 400;
+    color: #c1c2c4;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-action a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.form-action button {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+
+    width: 100%;
+    padding: 8px 12px;
+    background-color:transparent;
+    border: 0.5px solid rgba(231, 227, 52, 0.23);
+    border-radius: 12px;
+}
+
+.form-action button:hover {
+    background-color: #3d4142;
+}
+
+.form-action p {
+    font-size: 10px;
+    font-weight: 500;
+    color: antiquewhite;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.form-action img {
+    width: 10px;
+    height: 10px;
+}
